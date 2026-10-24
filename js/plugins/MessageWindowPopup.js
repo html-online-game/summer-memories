@@ -481,7 +481,7 @@
  *
  * 例：MWP_SETTING POS_UPPER
  * 　　フキダシウィンドウ設定 位置_自動
- * 　　MWP_SETTING SKIN window2
+ * 　　MWP_SETTING SKIN Window2
  * 　　フキダシウィンドウ設定 サブ位置_プレイヤーの頭上
  *
  * MWP_ADJUST [設定内容] or
@@ -775,8 +775,9 @@
     };
 
     Game_System.prototype.setPopupWindowSkin = function(fileName) {
-        this._messagePopupWindowSkin = fileName;
-        ImageManager.loadSystem(fileName);
+        var normalizedFileName = ImageManager._normalizeSystemFilename(fileName);
+        this._messagePopupWindowSkin = normalizedFileName;
+        ImageManager.loadSystem(normalizedFileName);
     };
 
     Game_System.prototype.getPopupWindowSkin = function() {

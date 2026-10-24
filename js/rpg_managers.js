@@ -840,8 +840,25 @@ ImageManager.loadSvEnemy = function(filename, hue) {
     return this.loadBitmap('img/sv_enemies/', filename, hue, true);
 };
 
+ImageManager._normalizeSystemFilename = function(filename) {
+    if (!filename) {
+        return filename;
+    }
+    var name = String(filename);
+    if (name.toLowerCase() === 'window') {
+        return 'Window';
+    }
+    if (name.toLowerCase() === 'window2') {
+        return 'Window2';
+    }
+    if (name.toLowerCase() === 'window3') {
+        return 'Window3';
+    }
+    return name;
+};
+
 ImageManager.loadSystem = function(filename, hue) {
-    return this.loadBitmap('img/system/', filename, hue, false);
+    return this.loadBitmap('img/system/', this._normalizeSystemFilename(filename), hue, false);
 };
 
 ImageManager.loadTileset = function(filename, hue) {
@@ -958,7 +975,7 @@ ImageManager.reserveSvEnemy = function(filename, hue, reservationId) {
 };
 
 ImageManager.reserveSystem = function(filename, hue, reservationId) {
-    return this.reserveBitmap('img/system/', filename, hue, false, reservationId || this._systemReservationId);
+    return this.reserveBitmap('img/system/', this._normalizeSystemFilename(filename), hue, false, reservationId || this._systemReservationId);
 };
 
 ImageManager.reserveTileset = function(filename, hue, reservationId) {
@@ -1041,7 +1058,7 @@ ImageManager.requestSvEnemy = function(filename, hue) {
 };
 
 ImageManager.requestSystem = function(filename, hue) {
-    return this.requestBitmap('img/system/', filename, hue, false);
+    return this.requestBitmap('img/system/', this._normalizeSystemFilename(filename), hue, false);
 };
 
 ImageManager.requestTileset = function(filename, hue) {

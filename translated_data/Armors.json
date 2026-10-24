@@ -1,0 +1,813 @@
+[
+  null,
+  {
+    "id": 1,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "----Fish----",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 2,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]1\\c[0]\nA common fish.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 176,
+    "name": "Oryzias",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100
+  },
+  {
+    "id": 3,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]1\\c[0]\nAn ice-fishing fish.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 177,
+    "name": "Hypomesus Nipponensis",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100
+  },
+  {
+    "id": 4,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]1\\c[0]\nIt's not weed.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 178,
+    "name": "Chenopodium Album",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100
+  },
+  {
+    "id": 5,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]1\\c[0]\nA flat fish.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 179,
+    "name": "Three-Spined Stickleback",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100
+  },
+  {
+    "id": 6,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]1\\c[0]\nShouta has some.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 180,
+    "name": "Goldfish",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100
+  },
+  {
+    "id": 7,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]2\\c[0]\nA common black carp.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 181,
+    "name": "Black Carp",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 200
+  },
+  {
+    "id": 8,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]2\\c[0]\nNot too happy I got it.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 182,
+    "name": "Striped Mullet",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 200
+  },
+  {
+    "id": 9,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]2\\c[0]\nA frail little fish.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 183,
+    "name": "Sweetfish",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 200
+  },
+  {
+    "id": 10,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]2\\c[0]\nIt's not very pretty.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 184,
+    "name": "White Spotted Char",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 200
+  },
+  {
+    "id": 11,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]2\\c[0]\nPopular and Hokkaidese.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 185,
+    "name": "Kokanee",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 200
+  },
+  {
+    "id": 12,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]3\\c[0]\nIt's not amber!",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 192,
+    "name": "Amberjack",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 300
+  },
+  {
+    "id": 13,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]3\\c[0]\nI doubt it can fly.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 193,
+    "name": "Pilot Fish",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 300
+  },
+  {
+    "id": 14,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]3\\c[0]\nHey!",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 194,
+    "name": "Skipjack Tuna",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 300
+  },
+  {
+    "id": 15,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]3\\c[0]\nSashimi is delicious.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 195,
+    "name": "Yellowfin Tuna",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 300
+  },
+  {
+    "id": 16,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]3\\c[0]\nFrom small to big.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 196,
+    "name": "Mackerel Tuna",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 300
+  },
+  {
+    "id": 17,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]4\\c[0]\nTuna's pretty cheap.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 197,
+    "name": "Albacore",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 400
+  },
+  {
+    "id": 18,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]4\\c[0]\nReminds me of \"axis\".",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 198,
+    "name": "Auxis",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 400
+  },
+  {
+    "id": 19,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]4\\c[0]\nLook at those peepers!",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 199,
+    "name": "Bigeye Tuna",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 400
+  },
+  {
+    "id": 20,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]4\\c[0]\nIt's super delicious!",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 200,
+    "name": "Pampus Punctatissimus",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 400
+  },
+  {
+    "id": 21,
+    "atypeId": 1,
+    "description": "Rarity: \\c[14]4\\c[0]\nHow'd I catch this...?",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 201,
+    "name": "Swordfish",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 400
+  },
+  {
+    "id": 22,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 23,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 24,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 25,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 26,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 27,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 28,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 29,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 30,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  }
+]

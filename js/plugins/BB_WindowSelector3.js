@@ -138,8 +138,8 @@
 var _Scene_Boot_prototype_loadSystemWindowImage = Scene_Boot.prototype.loadSystemWindowImage;
 Scene_Boot.prototype.loadSystemWindowImage = function() {
     ImageManager.loadSystem('Window');
-    ImageManager.loadSystem('window2');
-    ImageManager.loadSystem('window3');
+    ImageManager.loadSystem('Window2');
+    ImageManager.loadSystem('Window3');
 };
 
 // ウインドウ画像の切り替え
@@ -147,12 +147,12 @@ var _Window_Base_prototype_update = Window_Base.prototype.update;
 Window_Base.prototype.update = function() {
     Window.prototype.update.call(this);
     if($gameVariables.value(BBWSvar) == 3){
-        this.windowskin = ImageManager.loadSystem('window3');
+        this.windowskin = ImageManager.loadSystem('Window3');
         this.backOpacity = BBWS3o;
         this.contents.outlineColor = BBWS3oc;
         this.contents.outlineWidth = BBWS3ow;
     }else if($gameVariables.value(BBWSvar) == 2){
-        this.windowskin = ImageManager.loadSystem('window2');
+        this.windowskin = ImageManager.loadSystem('Window2');
         this.backOpacity = BBWS2o;
         this.contents.outlineColor = BBWS2oc;
         this.contents.outlineWidth = BBWS2ow;
